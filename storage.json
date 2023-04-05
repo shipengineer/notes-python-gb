@@ -11,5 +11,6 @@
     "switchport mode trunk",
     "switchport trunk native vlan 999",
     "switchport trunk allowed vlan"
-  ]
+  ],
+  "wally": ["wallhack"]
 }

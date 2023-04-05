@@ -1,22 +1,18 @@
 import json
-
-
-def function(x, y):
-    return x+y
-
-
-print(function(1, 2))
+import saveNotes
+import readNotes
+import editNote
+import createNote
 
 
 def app():
-    exectution = False
-    with open("./Python/app/storage.json") as storage:
-        templates = json.load(storage)
-
-        print(templates)
-    for section, commands in templates.items():
-        print(section)
-        print('\n'.join(commands))
+    template = readNotes.read()
+    exectution = True
+    while (exectution):
+        template["wally"] = ['wallhack']
+        print(template["wally"][0])
+        # saveNotes.saveAll(template)
+        exectution = False
 
 
 app()
