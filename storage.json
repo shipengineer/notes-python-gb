@@ -1,15 +1,1 @@
-{
-  "access": [
-    "switchport mode access",
-    "switchport access vlan",
-    "switchport nonegotiate",
-    "spanning-tree portfast",
-    "spanning-tree bpduguard enable"
-  ],
-  "trunk": [
-    "switchport trunk encapsulation dot1q",
-    "switchport mode trunk",
-    "switchport trunk native vlan 999",
-    "switchport trunk allowed vlan"
-  ]
-}
+{"ID4378": {"id": "ID4378", "name": "12", "body": "1243215", "creating-date": "05/04/2023 18:46:33", "change-date": "05/04/2023 18:46:33"}, "ID4882": {"id": "ID4882", "name": "12", "body": "12425236", "creating-date": "05/04/2023 18:46:37", "change-date": "05/04/2023 18:46:37"}}
