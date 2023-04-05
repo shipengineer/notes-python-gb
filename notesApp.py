@@ -9,9 +9,8 @@ def app():
     template = readNotes.read()
     exectution = True
     while (exectution):
-        template["wally"] = ['wallhack']
-        print(template["wally"][0])
-        # saveNotes.saveAll(template)
+        createNote.create(template)
+        saveNotes.saveAll(template)
         exectution = False
 
 
